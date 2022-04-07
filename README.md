@@ -3,6 +3,11 @@ Example APIs for OpenVPN-Webadmin
 
 As of Version 0.7, the API is limited to creating clients
 
+You will need to send a POST request to `/api.php` with the following paramaters:
+* api=
+* operation=
+* cn=
+
 # Curl (bash)
 
 Generate client:
